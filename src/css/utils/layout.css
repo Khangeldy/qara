@@ -1,0 +1,61 @@
+.l_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.l_center-x {
+  display: flex;
+  justify-content: center;
+}
+
+.l_center-y {
+  display: flex;
+  align-items: center;
+}
+
+.l_center-abs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%, 0);
+}
+
+.l_responsive {
+  display: flex;
+  flex-direction: column;
+
+  @media (--m) {
+    flex-direction: row;
+  }
+}
+
+/*
+* Container element for right and left blocks
+*/
+
+.l_float2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.l_float-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.l_equal {
+  display: flex;
+
+  & > div {
+    flex: 1;
+  }
+}
+
+.l_100h {
+  height: 100%;
+}
+
+.l_column {
+  flex-direction: column;
+}
