@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('Montserrat/Montserrat-Regular.ttf') format('trueType');
+}
+
+@font-face {
+  font-family: 'Monoton';
+  font-display: swap;
+  src: url('Monoton/Monoton-Regular.woff2') format('woff2');
+}
