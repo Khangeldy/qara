@@ -8,6 +8,6 @@
 
 @font-face {
   font-family: 'Monoton';
-  font-display: swap;
+  font-display: block;
   src: url('Monoton/Monoton-Regular.woff2') format('woff2');
 }
