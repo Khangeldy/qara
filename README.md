@@ -1,3 +1,2 @@
-### Webpack simple build
-To start read `package.json` scripts section.
-
+### Абайдың 45 қара сөз генераторы
+[Абай Құнанбаевтің](https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9_%D2%9A%D2%B1%D0%BD%D0%B0%D0%BD%D0%B1%D0%B0%D0%B9%D2%B1%D0%BB%D1%8B) қара сөздерін рандомна қайтаратын генератор.
