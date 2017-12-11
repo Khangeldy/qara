@@ -4,7 +4,7 @@ const merge = require('webpack-merge'),
       UglifyJsPlugin = require('uglifyjs-webpack-plugin'),
       config = require('./config');
 
-const PUBLIC_PATH = 'khangeldy.github.io/khangeldy'
+const PUBLIC_PATH = 'http://qara.kz/'
 
 module.exports = merge(common, {
   output: {
