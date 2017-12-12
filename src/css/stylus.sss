@@ -5,9 +5,19 @@ html, body
 	overflow: hidden
 	font-family: Montserrat, serif
 
-body > svg
+.background-svg
 	margin: 0
-	background-color: #000
+	background-color: #353839
+	width: 100vw
+	height: 100vh
+	z-index: 0
+	
+	.opened &
+		position: absolute
+		top: 0
+		left: 0
+		right: 0
+		bottom: 0
 
 .mdm
 	mix-blend-mode: normal
@@ -142,7 +152,7 @@ body > svg
 	position: absolute
 	top: 0
 	left: 0
-	background-color: #ccc
+	background-color: #edf4f6
 	color: #f00
 	right: 0
 	bottom: 0
