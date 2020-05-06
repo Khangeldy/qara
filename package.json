@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "gsap": "^1.19.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "snapsvg": "^0.5.1"
   }
 }
